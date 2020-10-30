@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2b7a78;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    height: 30vh;
+}
+
+.fraseTopo {
+    margin: 10vh;
+}
+
+.estoqueProduto {
+    background-color: #def2f1;
+    color: #17252a;
+}
+
+.menu a {
+    color: #17252a;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: #17252a;
+}
+
+.descricaoLoja {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #17252a;
+    height: 30vh;
+    text-justify: auto;
+}
+
+div {
+    color: #FFF;
+    background-color: #3aafa9;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario {
+    background-color: #def2f1;
+    color: #17252a;
+}
+
+.iconesSocialMedia {
+    height: 300px;
+}
+
+.funcionarios {
+    background-color: #def2f1;
+    color: #17252a;
+    text-align: left;
+}
+
+.socialMedia {
+    height: 30px;
+    width: 30px;
+}
+
+.tabela {
+    background-color: #def2f1;
+    color: #17252a;
+    text-align: justify;
+}
+
+.itemTabela {
+    text-align: center;
+}
