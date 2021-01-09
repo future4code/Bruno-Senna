@@ -122,8 +122,17 @@
 
 // 2 
 
-(function() {
-    return alert("Hello Future4");
- })();
+// (function() {
+//     return alert("Hello Future4");
+//  })();
+
+// Exercícios de Objetos
+
+// 1
+
+/* Um Array é um tipo de objeto que se assemelha a uma lista que existe com algumas propriedades embutidas nele.
+    Um objeto é uma entidade, algo com propriedades e tipos.  
+    É preferível utilizar um Array quando queremos fazer uma lista de objetos para um determinado propósito.
+    Já a utilização do objeto é mais como uma unica coisa, algo único que queremos dar propriedades. */
 
 
