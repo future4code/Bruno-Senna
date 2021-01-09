@@ -118,5 +118,12 @@
 
 // 1
 
-Não consegui começar a fazer ela.
+// Não consegui começar a fazer ela.
+
+// 2 
+
+(function() {
+    return alert("Hello Future4");
+ })();
+
 
