@@ -34,8 +34,23 @@
 
 // 2
 
-A. F 
-B. F
-C. T 
-D. F 
-E. T 
+// A. F 
+// B. F
+// C. T 
+// D. F 
+// E. T 
+
+// 3
+
+// Este código funciona? Por quê? Caso não funcione, corrija a implementação dele.
+
+// Não. Está faltando o incremento da variavel "i" e colocar somente "<" na comparação do "while". 
+
+const quantidadeDeNumerosPares = 8
+
+let i = 0
+
+while(i < quantidadeDeNumerosPares) {
+    console.log(i*2)
+    i++
+}
