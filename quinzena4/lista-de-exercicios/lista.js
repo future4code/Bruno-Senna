@@ -46,11 +46,27 @@
 
 // Não. Está faltando o incremento da variavel "i" e colocar somente "<" na comparação do "while". 
 
-const quantidadeDeNumerosPares = 8
+// const quantidadeDeNumerosPares = 8
 
-let i = 0
+// let i = 0
 
-while(i < quantidadeDeNumerosPares) {
-    console.log(i*2)
-    i++
+// while(i < quantidadeDeNumerosPares) {
+//     console.log(i*2)
+//     i++
+// }
+
+// 4
+
+let ladoA = Number(prompt("inisira o primeiro lado"));
+let ladoB = Number(prompt("inisira o segundo lado"));
+let ladoC = Number(prompt("inisira o terceiro lado"));
+
+if ((ladoA == ladoB) && (ladoA == ladoC) && (ladoB == ladoC)) {
+    console.log("Equilatero");
+} else if (((ladoA == ladoB) || (ladoA == ladoC) || (ladoB != ladoC)) ||
+    ((ladoA == ladoB) || (ladoA == ladoC) || (ladoB != ladoC)) ||
+    ((ladoC == ladoA) || (ladoC == ladoB) || (ladoA != ladoB))) {
+        console.log("Isoceles");
+} else {
+    console.log("Escaleno")
 }
