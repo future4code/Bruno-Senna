@@ -57,16 +57,59 @@
 
 // 4
 
-let ladoA = Number(prompt("inisira o primeiro lado"));
-let ladoB = Number(prompt("inisira o segundo lado"));
-let ladoC = Number(prompt("inisira o terceiro lado"));
+// let ladoA = Number(prompt("inisira o primeiro lado"));
+// let ladoB = Number(prompt("inisira o segundo lado"));
+// let ladoC = Number(prompt("inisira o terceiro lado"));
 
-if ((ladoA == ladoB) && (ladoA == ladoC) && (ladoB == ladoC)) {
-    console.log("Equilatero");
-} else if (((ladoA == ladoB) || (ladoA == ladoC) || (ladoB != ladoC)) ||
-    ((ladoA == ladoB) || (ladoA == ladoC) || (ladoB != ladoC)) ||
-    ((ladoC == ladoA) || (ladoC == ladoB) || (ladoA != ladoB))) {
-        console.log("Isoceles");
+// if ((ladoA == ladoB) && (ladoA == ladoC) && (ladoB == ladoC)) {
+//     console.log("Equilatero");
+// } else if (((ladoA == ladoB) || (ladoA == ladoC) || (ladoB != ladoC)) ||
+//     ((ladoA == ladoB) || (ladoA == ladoC) || (ladoB != ladoC)) ||
+//     ((ladoC == ladoA) || (ladoC == ladoB) || (ladoA != ladoB)) ) {
+//     console.log("Isoceles");
+// } else {
+//     console.log("Escaleno")
+// }
+
+// 5
+
+let numA = Number(prompt("Insira o primeiro numero"));
+let numB = Number(prompt("Insira o segundo numero"));
+
+if (numA > numB) {
+    console.log("O maior é: ", numA);
+} else if (numA < numB) {
+    console.log("O maior é: ", numB);
 } else {
-    console.log("Escaleno")
+    console.log("Os numeros são iguais");
 }
+
+if (numA % numB == 0) {
+    console.log(numA, " é divisivel por ", numB)
+} else {
+    console.log(numA, ' não é divisivel por ' , numB)
+}
+
+if (numB % numA == 0) {
+    console.log(numB, " é divisivel por ", numA)
+} else {
+    console.log(numB, " não é divisivel por ", numA)
+}
+
+// Está faltando algo nessa parte para completar o codigo e fazer ele rodar 100% em todos os casos mas não sei implementar.
+
+if (numA >=0) {
+    if (numA >= numB){
+        console.log(numA - numB)
+    } else {
+        console.log(numB - numA)
+    }
+} else if (numA < 0) {
+    console.log(numB - numA)
+}
+
+// if ((numA >= 0) && (numA >= numB)) {
+//     console.log(numA - numB)
+// } else if ((numA >= 0) && (numA <=numB)) {
+//     console.log(numB - numA)
+// } else if ()
