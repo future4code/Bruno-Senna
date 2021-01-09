@@ -17,5 +17,17 @@
 
 // 4
 
-25  12     12  12      11      11   1       -10     -10
-25, 25 x2, 64, 121 x2, 121 x8, 283, 283 x8, 283 x2, 1590
+// 25  12     12  12      11      11   1       -10     -10
+// 25, 25 x2, 64, 121 x2, 121 x8, 283, 283 x8, 283 x2, 1590
+
+// Exercícios de Lógica de Programação
+
+// 1
+
+// 3 maneiras de se percorrer uma lista: for each...in, for...in, for...of
+
+let array = [10, 20, 30];
+
+for (const valor of array) {
+  console.log(valor);
+}
