@@ -6,6 +6,12 @@
 
 // 2
 
-console.log(novoMomtante); saida é "165"
-console.log(segundoMontante); saida é "TIPO DE INVESTIMENTO INFORMADO INCORRETO!"
+// console.log(novoMomtante); saida é "165"
+// console.log(segundoMontante); saida é "TIPO DE INVESTIMENTO INFORMADO INCORRETO!"
+
+// 3
+
+console.log("Quantidade total de números", numeros.length); saida é "Quantidade total de números 14"
+console.log(array1.lenght); saida é "6"
+console.log(array1.lenght); saida é "8"
 
