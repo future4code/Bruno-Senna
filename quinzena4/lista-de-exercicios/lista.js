@@ -73,43 +73,50 @@
 
 // 5
 
-let numA = Number(prompt("Insira o primeiro numero"));
-let numB = Number(prompt("Insira o segundo numero"));
+// let numA = Number(prompt("Insira o primeiro numero"));
+// let numB = Number(prompt("Insira o segundo numero"));
 
-if (numA > numB) {
-    console.log("O maior é: ", numA);
-} else if (numA < numB) {
-    console.log("O maior é: ", numB);
-} else {
-    console.log("Os numeros são iguais");
-}
+// if (numA > numB) {
+//     console.log("O maior é: ", numA);
+// } else if (numA < numB) {
+//     console.log("O maior é: ", numB);
+// } else {
+//     console.log("Os numeros são iguais");
+// }
 
-if (numA % numB == 0) {
-    console.log(numA, " é divisivel por ", numB)
-} else {
-    console.log(numA, ' não é divisivel por ' , numB)
-}
+// if (numA % numB == 0) {
+//     console.log(numA, " é divisivel por ", numB)
+// } else {
+//     console.log(numA, ' não é divisivel por ' , numB)
+// }
 
-if (numB % numA == 0) {
-    console.log(numB, " é divisivel por ", numA)
-} else {
-    console.log(numB, " não é divisivel por ", numA)
-}
+// if (numB % numA == 0) {
+//     console.log(numB, " é divisivel por ", numA)
+// } else {
+//     console.log(numB, " não é divisivel por ", numA)
+// }
 
-// Está faltando algo nessa parte para completar o codigo e fazer ele rodar 100% em todos os casos mas não sei implementar.
+// // Está faltando algo nessa parte para completar o codigo e fazer ele rodar 100% em todos os casos mas não sei implementar.
 
-if (numA >=0) {
-    if (numA >= numB){
-        console.log(numA - numB)
-    } else {
-        console.log(numB - numA)
-    }
-} else if (numA < 0) {
-    console.log(numB - numA)
-}
+// if (numA >=0) {
+//     if (numA >= numB){
+//         console.log(numA - numB)
+//     } else {
+//         console.log(numB - numA)
+//     }
+// } else if (numA < 0) {
+//     console.log(numB - numA)
+// }
 
 // if ((numA >= 0) && (numA >= numB)) {
 //     console.log(numA - numB)
 // } else if ((numA >= 0) && (numA <=numB)) {
 //     console.log(numB - numA)
 // } else if ()
+
+// Exercícios de Funções
+
+// 1
+
+Não consegui começar a fazer ela.
+
