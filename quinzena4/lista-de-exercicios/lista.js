@@ -26,8 +26,16 @@
 
 // 3 maneiras de se percorrer uma lista: for each...in, for...in, for...of
 
-let array = [10, 20, 30];
+// let array = [10, 20, 30];
 
-for (const valor of array) {
-  console.log(valor);
-}
+// for (const valor of array) {
+//   console.log(valor);
+// }
+
+// 2
+
+A. F 
+B. F
+C. T 
+D. F 
+E. T 
