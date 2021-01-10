@@ -133,24 +133,34 @@
 /* Um Array é um tipo de objeto que se assemelha a uma lista que existe com algumas propriedades embutidas nele.
     Um objeto é uma entidade, algo com propriedades e tipos.  
     É preferível utilizar um Array quando queremos fazer uma lista de objetos para um determinado propósito.
-    Já a utilização do objeto é mais como uma unica coisa, algo único que queremos dar propriedades. */
+    Já a utilização do objeto é mais como uma unica coisa, algo único que queremos dar propriedades. */
 
 // 2
 
-let lado1 = Number(prompt("Insira o primeiro lado"));
-let lado2 = Number(prompt("Insira o segundo lado"));
+// let lado1 = Number(prompt("Insira o primeiro lado"));
+// let lado2 = Number(prompt("Insira o segundo lado"));
 
-const retangulo
+// const retangulo
 
-function criaRetangulo (lado1, lado2){
-    retangulo.largura = lado1;
-    retangulo.altura = lado2;
-    retangulo.perimetro = (2 * (lado1 + lado2));
-    retangulo.area = (lado1 * lado2);
+// function criaRetangulo (lado1, lado2){
+//     retangulo.largura = lado1;
+//     retangulo.altura = lado2;
+//     retangulo.perimetro = (2 * (lado1 + lado2));
+//     retangulo.area = (lado1 * lado2);
+// }
+
+// const retangulo = criaRetangulo ();
+
+// console.log(retangulo);
+
+// 3
+
+const filme = {
+    titulo: 'Harry Potter e a Pedra Filosofal',
+    ano: '2001',
+    diretor: 'Chris Columbus',
+    elenco: ['Daniel Radcliffe', 'Rupert Grint', 'Richard Harris'],
+    autora: 'J.K. Rowling'
 }
 
-const retangulo = criaRetangulo ();
-
-console.log(retangulo);
-
-
+console.log("Venha assistir ao ", filme.titulo, " de ", filme.ano, " dirigido por ", filme.diretor, " e estrelado por ", filme.elenco[0],", ",filme.elenco[1]," e ",filme.elenco[2],".");
