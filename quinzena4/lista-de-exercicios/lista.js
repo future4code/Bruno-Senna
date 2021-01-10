@@ -135,4 +135,22 @@
     É preferível utilizar um Array quando queremos fazer uma lista de objetos para um determinado propósito.
     Já a utilização do objeto é mais como uma unica coisa, algo único que queremos dar propriedades. */
 
+// 2
+
+let lado1 = Number(prompt("Insira o primeiro lado"));
+let lado2 = Number(prompt("Insira o segundo lado"));
+
+const retangulo
+
+function criaRetangulo (lado1, lado2){
+    retangulo.largura = lado1;
+    retangulo.altura = lado2;
+    retangulo.perimetro = (2 * (lado1 + lado2));
+    retangulo.area = (lado1 * lado2);
+}
+
+const retangulo = criaRetangulo ();
+
+console.log(retangulo);
+
 
