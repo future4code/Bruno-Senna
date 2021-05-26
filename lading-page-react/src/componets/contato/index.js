@@ -96,8 +96,8 @@ const Contato = () => {
     return (
       <div>
         <MensagemFoiEnviada />
-        <Button type="reset" onClick={resetarMensagem}>
-        Resetar
+        <Button onClick={resetarMensagem}>
+          Resetar
         </Button>
       </div>
     );
