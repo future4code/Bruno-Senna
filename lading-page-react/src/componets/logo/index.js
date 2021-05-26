@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components'
+// import { Link } from "react-router-dom";
 
 const Header = styled.div`
   width: 100%;
@@ -13,11 +14,11 @@ const Nav = styled.div`
   padding: 7px 25px;
   display: inline-block;
 `
-const Link = ({ className, children }) => (
-  <a className={className}>
-    {children}
-  </a>
-);
+ const Link = ({ className, children }) => (
+   <a className={className}>
+     {children}
+   </a>
+ );
 
 const StyledLink = styled(Link)`
   color: #f8f8f8;
