@@ -83,13 +83,24 @@ const Contato = () => {
                 onChange={(e) => setMensagem(e.target.value)}
               ></Textarea>
             </FormDiv>
-            <Button type="submit" onClick={(enviarMensagem)}>Enviar</Button>
-            <Button type="reset" onClick={(resetarMensagem)}>reset</Button>
+            <Button type="submit" onClick={enviarMensagem}>
+              Enviar
+            </Button>
+            <Button type="reset" onClick={resetarMensagem}>
+              Resetar
+            </Button>
           </form>
         </FormDiv>
       );
     }
-    return <MensagemFoiEnviada />;
+    return (
+      <div>
+        <MensagemFoiEnviada />
+        <Button type="reset" onClick={resetarMensagem}>
+        Resetar
+        </Button>
+      </div>
+    );
   };
 
   const enviarMensagem = () => {
@@ -103,11 +114,7 @@ const Contato = () => {
     setMensagemEnviada("false");
   };
 
-  return (
-    <Mensagem>
-      {renderizarContato()}
-     </Mensagem>
-  );
+  return <Mensagem>{renderizarContato()}</Mensagem>;
 };
 
 export default Contato;
