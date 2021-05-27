@@ -96,9 +96,7 @@ const Contato = () => {
     return (
       <div>
         <MensagemFoiEnviada />
-        <Button onClick={resetarMensagem}>
-          Resetar
-        </Button>
+        <Button onClick={resetarMensagem}>Resetar</Button>
       </div>
     );
   };

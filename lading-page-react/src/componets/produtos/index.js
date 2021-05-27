@@ -20,6 +20,7 @@ const Input = styled.div`
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: black;
   align-content: space-around;
+  height: 3em;
 `;
 const InsideProduct = styled.div`
   background: #124;
